@@ -195,14 +195,12 @@
     });
   }
 
-  // ================================================
-  // INIT
-  // ================================================
   function init() {
     initFAQ();
     initHeaderScroll();
     initStickyBar();
     initSmoothScroll();
+    initForm();
 
     // Small delay to ensure DOM is fully ready for animation observer
     requestAnimationFrame(function () {
